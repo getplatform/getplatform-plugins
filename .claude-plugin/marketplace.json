@@ -1,7 +1,7 @@
 {
   "name": "getplatform",
   "displayName": "GetPlatform Marketplace",
-  "description": "Official plugins for GetPlatform SaaS products - cookie consent, email marketing, and more",
+  "description": "Official plugins for GetPlatform SaaS products - marketing, analytics, sales, and compliance tools",
   "version": "1.0.0",
   "owner": {
     "name": "GetPlatform",
@@ -12,7 +12,7 @@
     {
       "name": "getcookies",
       "source": "./plugins/getcookies",
-      "description": "Cookie consent management - scan domains, configure widgets, check compliance",
+      "description": "Cookie consent management - scan domains, configure widgets, check GDPR/CCPA compliance",
       "version": "1.0.0",
       "tags": ["privacy", "gdpr", "cookies", "consent", "compliance"]
     },
@@ -22,6 +22,48 @@
       "description": "Email marketing & deliverability - send emails, manage templates, monitor reputation",
       "version": "1.0.0",
       "tags": ["email", "marketing", "smtp", "templates", "deliverability"]
+    },
+    {
+      "name": "getchannel",
+      "source": "./plugins/getchannel",
+      "description": "Multi-channel ad management - Google, Meta, TikTok, LinkedIn campaigns from your IDE",
+      "version": "1.0.0",
+      "tags": ["advertising", "google-ads", "meta-ads", "campaigns", "marketing"]
+    },
+    {
+      "name": "getpoas",
+      "source": "./plugins/getpoas",
+      "description": "Profit on Ad Spend tracking - calculate true profitability of ad campaigns",
+      "version": "1.0.0",
+      "tags": ["poas", "roas", "analytics", "profitability", "ecommerce"]
+    },
+    {
+      "name": "getfeeder",
+      "source": "./plugins/getfeeder",
+      "description": "Product feed management - sync to Google Shopping, Meta Catalog, TikTok Shop",
+      "version": "1.0.0",
+      "tags": ["product-feeds", "google-shopping", "ecommerce", "catalog"]
+    },
+    {
+      "name": "getanswers",
+      "source": "./plugins/getanswers",
+      "description": "AI knowledge base - train chatbots, answer questions, manage documentation",
+      "version": "1.0.0",
+      "tags": ["ai", "chatbot", "knowledge-base", "faq", "customer-support"]
+    },
+    {
+      "name": "calltracker",
+      "source": "./plugins/calltracker",
+      "description": "Call tracking & analytics - track calls, recordings, attribution",
+      "version": "1.0.0",
+      "tags": ["call-tracking", "analytics", "phone", "attribution", "sales"]
+    },
+    {
+      "name": "leadyen",
+      "source": "./plugins/leadyen",
+      "description": "B2B sales intelligence - find leads, enrich contacts, automate outreach",
+      "version": "1.0.0",
+      "tags": ["sales", "leads", "b2b", "prospecting", "enrichment"]
     }
   ],
   "repository": "https://github.com/hatlem/getplatform-plugins",

@@ -1,0 +1,48 @@
+{
+  "name": "getpoas",
+  "displayName": "GetPoas",
+  "description": "Profit on Ad Spend tracking - calculate true profitability of your ad campaigns",
+  "version": "1.0.0",
+  "author": {
+    "name": "GetPlatform",
+    "email": "plugins@getplatform.co",
+    "url": "https://getpoas.com"
+  },
+  "repository": "https://github.com/hatlem/getplatform-plugins",
+  "license": "MIT",
+  "keywords": ["poas", "roas", "advertising", "profitability", "analytics", "ecommerce"],
+  "commands": [
+    {
+      "name": "getpoas-calculate",
+      "description": "Calculate POAS for campaigns or products"
+    },
+    {
+      "name": "getpoas-report",
+      "description": "Generate profitability reports"
+    },
+    {
+      "name": "getpoas-alerts",
+      "description": "Set up profitability alerts and thresholds"
+    }
+  ],
+  "skills": [
+    {
+      "name": "poas-calculator",
+      "description": "Calculate and analyze profit on ad spend"
+    }
+  ],
+  "mcp": {
+    "server": "./mcp/server.js",
+    "config": {
+      "apiKey": "${GETPOAS_API_KEY}",
+      "baseUrl": "https://getpoas.com/api"
+    }
+  },
+  "settings": {
+    "GETPOAS_API_KEY": {
+      "description": "Your GetPoas API key",
+      "required": true,
+      "secret": true
+    }
+  }
+}

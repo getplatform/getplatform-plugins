@@ -1,0 +1,48 @@
+{
+  "name": "getfeeder",
+  "displayName": "GetFeeder",
+  "description": "Product feed management - sync products to Google, Meta, TikTok shopping feeds",
+  "version": "1.0.0",
+  "author": {
+    "name": "GetPlatform",
+    "email": "plugins@getplatform.co",
+    "url": "https://getfeeder.co"
+  },
+  "repository": "https://github.com/hatlem/getplatform-plugins",
+  "license": "MIT",
+  "keywords": ["product-feeds", "google-shopping", "meta-catalog", "ecommerce", "sync"],
+  "commands": [
+    {
+      "name": "getfeeder-sync",
+      "description": "Sync product feeds to shopping platforms"
+    },
+    {
+      "name": "getfeeder-validate",
+      "description": "Validate feed data and check for errors"
+    },
+    {
+      "name": "getfeeder-status",
+      "description": "Check feed sync status across platforms"
+    }
+  ],
+  "skills": [
+    {
+      "name": "feed-manager",
+      "description": "Manage product feeds for shopping platforms"
+    }
+  ],
+  "mcp": {
+    "server": "./mcp/server.js",
+    "config": {
+      "apiKey": "${GETFEEDER_API_KEY}",
+      "baseUrl": "https://getfeeder.co/api"
+    }
+  },
+  "settings": {
+    "GETFEEDER_API_KEY": {
+      "description": "Your GetFeeder API key",
+      "required": true,
+      "secret": true
+    }
+  }
+}

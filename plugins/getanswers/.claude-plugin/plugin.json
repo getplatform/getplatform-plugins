@@ -1,0 +1,48 @@
+{
+  "name": "getanswers",
+  "displayName": "GetAnswers",
+  "description": "AI-powered knowledge base - train chatbots and answer customer questions",
+  "version": "1.0.0",
+  "author": {
+    "name": "GetPlatform",
+    "email": "plugins@getplatform.co",
+    "url": "https://heyanswer.ai"
+  },
+  "repository": "https://github.com/hatlem/getplatform-plugins",
+  "license": "MIT",
+  "keywords": ["ai", "chatbot", "knowledge-base", "faq", "customer-support", "llm"],
+  "commands": [
+    {
+      "name": "getanswers-train",
+      "description": "Train knowledge base with new content"
+    },
+    {
+      "name": "getanswers-ask",
+      "description": "Ask a question against your knowledge base"
+    },
+    {
+      "name": "getanswers-sources",
+      "description": "Manage knowledge base sources and documents"
+    }
+  ],
+  "skills": [
+    {
+      "name": "knowledge-base",
+      "description": "Manage AI-powered knowledge bases and chatbots"
+    }
+  ],
+  "mcp": {
+    "server": "./mcp/server.js",
+    "config": {
+      "apiKey": "${GETANSWERS_API_KEY}",
+      "baseUrl": "https://heyanswer.ai/api"
+    }
+  },
+  "settings": {
+    "GETANSWERS_API_KEY": {
+      "description": "Your GetAnswers API key",
+      "required": true,
+      "secret": true
+    }
+  }
+}

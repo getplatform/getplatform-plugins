@@ -1,0 +1,48 @@
+{
+  "name": "calltracker",
+  "displayName": "CallTracker",
+  "description": "Call tracking and analytics - track calls, record conversations, analyze performance",
+  "version": "1.0.0",
+  "author": {
+    "name": "GetPlatform",
+    "email": "plugins@getplatform.co",
+    "url": "https://calltracker.dev"
+  },
+  "repository": "https://github.com/hatlem/getplatform-plugins",
+  "license": "MIT",
+  "keywords": ["call-tracking", "analytics", "phone", "recording", "attribution", "sales"],
+  "commands": [
+    {
+      "name": "calltracker-calls",
+      "description": "View recent calls and call logs"
+    },
+    {
+      "name": "calltracker-numbers",
+      "description": "Manage tracking phone numbers"
+    },
+    {
+      "name": "calltracker-analytics",
+      "description": "View call analytics and attribution"
+    }
+  ],
+  "skills": [
+    {
+      "name": "call-analytics",
+      "description": "Analyze call tracking data and attribution"
+    }
+  ],
+  "mcp": {
+    "server": "./mcp/server.js",
+    "config": {
+      "apiKey": "${CALLTRACKER_API_KEY}",
+      "baseUrl": "https://calltracker.dev/api"
+    }
+  },
+  "settings": {
+    "CALLTRACKER_API_KEY": {
+      "description": "Your CallTracker API key",
+      "required": true,
+      "secret": true
+    }
+  }
+}

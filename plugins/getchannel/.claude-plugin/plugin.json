@@ -1,0 +1,56 @@
+{
+  "name": "getchannel",
+  "displayName": "GetChannel",
+  "description": "Multi-channel ad campaign management - Google, Meta, TikTok, LinkedIn ads from your IDE",
+  "version": "1.0.0",
+  "author": {
+    "name": "GetPlatform",
+    "email": "plugins@getplatform.co",
+    "url": "https://getchannel.co"
+  },
+  "repository": "https://github.com/hatlem/getplatform-plugins",
+  "license": "MIT",
+  "keywords": ["advertising", "google-ads", "meta-ads", "tiktok", "linkedin", "campaigns", "marketing"],
+  "commands": [
+    {
+      "name": "getchannel-campaigns",
+      "description": "List and manage ad campaigns across platforms"
+    },
+    {
+      "name": "getchannel-metrics",
+      "description": "View campaign performance metrics and ROAS"
+    },
+    {
+      "name": "getchannel-budget",
+      "description": "Check and adjust campaign budgets"
+    },
+    {
+      "name": "getchannel-creative",
+      "description": "Generate ad copy and creative suggestions"
+    }
+  ],
+  "skills": [
+    {
+      "name": "ad-campaigns",
+      "description": "Manage multi-platform advertising campaigns"
+    },
+    {
+      "name": "ad-analytics",
+      "description": "Analyze campaign performance across channels"
+    }
+  ],
+  "mcp": {
+    "server": "./mcp/server.js",
+    "config": {
+      "apiKey": "${GETCHANNEL_API_KEY}",
+      "baseUrl": "https://getchannel.co/api"
+    }
+  },
+  "settings": {
+    "GETCHANNEL_API_KEY": {
+      "description": "Your GetChannel API key",
+      "required": true,
+      "secret": true
+    }
+  }
+}
