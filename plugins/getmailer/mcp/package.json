@@ -1,0 +1,22 @@
+{
+  "name": "@getplatform/getmailer-mcp",
+  "version": "1.0.0",
+  "description": "MCP server for GetMailer email marketing platform",
+  "type": "module",
+  "main": "server.js",
+  "bin": {
+    "getmailer-mcp": "./server.js"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": ["mcp", "getmailer", "email", "marketing", "smtp", "deliverability"],
+  "author": "GetPlatform <plugins@getplatform.co>",
+  "license": "MIT"
+}

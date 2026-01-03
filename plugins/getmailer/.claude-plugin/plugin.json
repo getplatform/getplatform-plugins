@@ -1,0 +1,68 @@
+{
+  "name": "getmailer",
+  "displayName": "GetMailer",
+  "description": "Email marketing & deliverability - send emails, manage templates, monitor reputation",
+  "version": "1.0.0",
+  "author": {
+    "name": "GetPlatform",
+    "email": "plugins@getplatform.co",
+    "url": "https://getmailer.co"
+  },
+  "repository": "https://github.com/hatlem/getplatform-plugins",
+  "license": "MIT",
+  "keywords": ["email", "marketing", "smtp", "templates", "deliverability", "transactional"],
+  "commands": [
+    {
+      "name": "getmailer-send",
+      "description": "Send a test email or quick transactional email"
+    },
+    {
+      "name": "getmailer-template",
+      "description": "Create, list, or preview email templates"
+    },
+    {
+      "name": "getmailer-reputation",
+      "description": "Check your sending reputation and deliverability metrics"
+    },
+    {
+      "name": "getmailer-domain",
+      "description": "Verify and manage sending domains (DKIM, SPF, DMARC)"
+    }
+  ],
+  "skills": [
+    {
+      "name": "email-sender",
+      "description": "Send transactional and test emails via GetMailer API"
+    },
+    {
+      "name": "email-templates",
+      "description": "Create and manage React Email templates"
+    },
+    {
+      "name": "deliverability",
+      "description": "Monitor and improve email deliverability"
+    }
+  ],
+  "mcp": {
+    "server": "./mcp/server.js",
+    "config": {
+      "apiKey": "${GETMAILER_API_KEY}",
+      "baseUrl": "https://getmailer.co/api"
+    }
+  },
+  "settings": {
+    "GETMAILER_API_KEY": {
+      "description": "Your GetMailer API key",
+      "required": true,
+      "secret": true
+    },
+    "GETMAILER_DEFAULT_FROM": {
+      "description": "Default from address for sending emails",
+      "required": false
+    },
+    "GETMAILER_TEST_EMAIL": {
+      "description": "Default recipient for test emails",
+      "required": false
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "name": "getplatform",
+  "displayName": "GetPlatform Marketplace",
+  "description": "Official plugins for GetPlatform SaaS products - cookie consent, email marketing, and more",
+  "version": "1.0.0",
+  "owner": {
+    "name": "GetPlatform",
+    "email": "plugins@getplatform.co",
+    "url": "https://getplatform.co"
+  },
+  "plugins": [
+    {
+      "name": "getcookies",
+      "source": "./plugins/getcookies",
+      "description": "Cookie consent management - scan domains, configure widgets, check compliance",
+      "version": "1.0.0",
+      "tags": ["privacy", "gdpr", "cookies", "consent", "compliance"]
+    },
+    {
+      "name": "getmailer",
+      "source": "./plugins/getmailer",
+      "description": "Email marketing & deliverability - send emails, manage templates, monitor reputation",
+      "version": "1.0.0",
+      "tags": ["email", "marketing", "smtp", "templates", "deliverability"]
+    }
+  ],
+  "repository": "https://github.com/hatlem/getplatform-plugins",
+  "license": "MIT"
+}

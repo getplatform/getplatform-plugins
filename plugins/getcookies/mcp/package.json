@@ -1,0 +1,22 @@
+{
+  "name": "@getplatform/getcookies-mcp",
+  "version": "1.0.0",
+  "description": "MCP server for GetCookies cookie consent management",
+  "type": "module",
+  "main": "server.js",
+  "bin": {
+    "getcookies-mcp": "./server.js"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": ["mcp", "getcookies", "cookies", "consent", "gdpr", "privacy"],
+  "author": "GetPlatform <plugins@getplatform.co>",
+  "license": "MIT"
+}

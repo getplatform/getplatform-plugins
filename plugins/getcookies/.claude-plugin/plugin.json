@@ -1,0 +1,60 @@
+{
+  "name": "getcookies",
+  "displayName": "GetCookies",
+  "description": "Cookie consent management - scan domains, configure widgets, check GDPR/CCPA compliance",
+  "version": "1.0.0",
+  "author": {
+    "name": "GetPlatform",
+    "email": "plugins@getplatform.co",
+    "url": "https://getcookies.co"
+  },
+  "repository": "https://github.com/hatlem/getplatform-plugins",
+  "license": "MIT",
+  "keywords": ["privacy", "gdpr", "ccpa", "cookies", "consent", "compliance", "widget"],
+  "commands": [
+    {
+      "name": "getcookies-scan",
+      "description": "Scan a domain for cookies and tracking technologies"
+    },
+    {
+      "name": "getcookies-widget",
+      "description": "Configure and deploy a consent banner widget"
+    },
+    {
+      "name": "getcookies-compliance",
+      "description": "Check domain compliance with GDPR, CCPA, and other regulations"
+    },
+    {
+      "name": "getcookies-declare",
+      "description": "Generate a cookie declaration for privacy policy pages"
+    }
+  ],
+  "skills": [
+    {
+      "name": "cookie-scanner",
+      "description": "Scan websites for cookies and classify them by category"
+    },
+    {
+      "name": "consent-widget",
+      "description": "Generate and configure consent banner widgets"
+    }
+  ],
+  "mcp": {
+    "server": "./mcp/server.js",
+    "config": {
+      "apiKey": "${GETCOOKIES_API_KEY}",
+      "baseUrl": "https://getcookies.co/api/v1"
+    }
+  },
+  "settings": {
+    "GETCOOKIES_API_KEY": {
+      "description": "Your GetCookies API key",
+      "required": true,
+      "secret": true
+    },
+    "GETCOOKIES_DEFAULT_DOMAIN": {
+      "description": "Default domain ID to use for commands",
+      "required": false
+    }
+  }
+}
