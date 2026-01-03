@@ -22,7 +22,7 @@ Email marketing & deliverability platform:
 
 ### Add the GetPlatform Marketplace
 ```
-/plugin marketplace add hatlem/getplatform-plugins
+/plugin marketplace add getplatform/getplatform-plugins
 ```
 
 ### Install Individual Plugins

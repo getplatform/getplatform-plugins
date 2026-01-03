@@ -13,7 +13,7 @@ Email marketing and deliverability directly in your IDE.
 
 ### From GetPlatform Marketplace
 ```
-/plugin marketplace add hatlem/getplatform-plugins
+/plugin marketplace add getplatform/getplatform-plugins
 /plugin install getmailer@getplatform
 ```
 

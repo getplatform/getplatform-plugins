@@ -66,6 +66,6 @@
       "tags": ["sales", "leads", "b2b", "prospecting", "enrichment"]
     }
   ],
-  "repository": "https://github.com/hatlem/getplatform-plugins",
+  "repository": "https://github.com/getplatform/getplatform-plugins",
   "license": "MIT"
 }

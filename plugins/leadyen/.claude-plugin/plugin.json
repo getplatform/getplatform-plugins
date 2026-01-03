@@ -8,7 +8,7 @@
     "email": "plugins@getplatform.co",
     "url": "https://leadyen.com"
   },
-  "repository": "https://github.com/hatlem/getplatform-plugins",
+  "repository": "https://github.com/getplatform/getplatform-plugins",
   "license": "MIT",
   "keywords": ["sales", "leads", "b2b", "prospecting", "enrichment", "outreach"],
   "commands": [

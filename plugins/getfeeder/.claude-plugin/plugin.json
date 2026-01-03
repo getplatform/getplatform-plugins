@@ -8,7 +8,7 @@
     "email": "plugins@getplatform.co",
     "url": "https://getfeeder.co"
   },
-  "repository": "https://github.com/hatlem/getplatform-plugins",
+  "repository": "https://github.com/getplatform/getplatform-plugins",
   "license": "MIT",
   "keywords": ["product-feeds", "google-shopping", "meta-catalog", "ecommerce", "sync"],
   "commands": [

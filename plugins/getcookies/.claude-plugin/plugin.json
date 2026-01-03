@@ -8,7 +8,7 @@
     "email": "plugins@getplatform.co",
     "url": "https://getcookies.co"
   },
-  "repository": "https://github.com/hatlem/getplatform-plugins",
+  "repository": "https://github.com/getplatform/getplatform-plugins",
   "license": "MIT",
   "keywords": ["privacy", "gdpr", "ccpa", "cookies", "consent", "compliance", "widget"],
   "commands": [

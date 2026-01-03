@@ -8,7 +8,7 @@
     "email": "plugins@getplatform.co",
     "url": "https://heyanswer.ai"
   },
-  "repository": "https://github.com/hatlem/getplatform-plugins",
+  "repository": "https://github.com/getplatform/getplatform-plugins",
   "license": "MIT",
   "keywords": ["ai", "chatbot", "knowledge-base", "faq", "customer-support", "llm"],
   "commands": [
