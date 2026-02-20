@@ -1,1 +1,6 @@
 /screenshots
+
+# Root-level screenshots/design reference images
+/*.png
+/*.jpg
+/*.jpeg
