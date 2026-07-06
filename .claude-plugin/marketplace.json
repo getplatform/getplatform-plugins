@@ -64,6 +64,13 @@
       "description": "B2B sales intelligence - find leads, enrich contacts, automate outreach",
       "version": "1.0.0",
       "tags": ["sales", "leads", "b2b", "prospecting", "enrichment"]
+    },
+    {
+      "name": "ad-effectiveness",
+      "source": "./plugins/ad-effectiveness",
+      "description": "Evaluate ad creative and brief AI-generated video ads with System1 science - Fame/Feeling/Fluency, Fluent Devices, and a right-brain/left-brain render scorecard",
+      "version": "1.0.0",
+      "tags": ["advertising", "creative", "system1", "brand", "video-ads", "fluent-device"]
     }
   ],
   "repository": "https://github.com/getplatform/getplatform-plugins",

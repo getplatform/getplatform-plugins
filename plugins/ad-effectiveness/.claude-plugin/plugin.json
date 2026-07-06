@@ -1,0 +1,20 @@
+{
+  "name": "ad-effectiveness",
+  "displayName": "Ad Effectiveness",
+  "description": "Evaluate and brief advertising creative using System1 Group science - Fame/Feeling/Fluency, emotional storytelling, Fluent Devices, and a right-brain/left-brain render scorecard for AI-generated video ads",
+  "version": "1.0.0",
+  "author": {
+    "name": "GetPlatform",
+    "email": "plugins@getplatform.co",
+    "url": "https://getplatform.co"
+  },
+  "repository": "https://github.com/getplatform/getplatform-plugins",
+  "license": "MIT",
+  "keywords": ["advertising", "creative", "system1", "ad-testing", "brand", "emotional-advertising", "fluent-device", "creative-brief", "higgsfield", "video-ads"],
+  "skills": [
+    {
+      "name": "ad-effectiveness",
+      "description": "Evaluate whether an ad will work, write creative briefs, produce AI-render video ad briefs, and score every rendered shot against System1's right-brain/left-brain framework"
+    }
+  ]
+}

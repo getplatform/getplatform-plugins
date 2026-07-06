@@ -18,6 +18,13 @@ Email marketing & deliverability platform:
 - `/getmailer-reputation` - Check sending reputation
 - `/getmailer-domain` - Verify sending domains
 
+### Ad Effectiveness
+Evaluate and brief advertising creative with System1 Group science (no product API required):
+- Fame / Feeling / Fluency framework and 1–5 Star rating calibration
+- Creative-brief template and evaluation rubric for assessing agency work
+- AI-render video ad briefs (Higgsfield / Veo / Runway / Sora) as self-contained paste docs
+- Right-brain / left-brain render scorecard to score every generated shot before spend
+
 ## Installation
 
 ### Add the GetPlatform Marketplace
